@@ -1,0 +1,31 @@
+{
+  "name": "back-integral-envio-emails",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoFutemma/back-integral-envio-emails.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node.JS",
+    "Nodemailer"
+  ],
+  "author": "Leonardo T. Futemma",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "knex": "^2.2.0",
+    "nodemailer": "^6.7.7",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
